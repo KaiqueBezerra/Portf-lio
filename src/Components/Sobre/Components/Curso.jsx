@@ -7,12 +7,12 @@ const cursos = [
   {
     nome: "Web Completo",
     src: Udemy,
-    href: "https://dogs-theta-nine.vercel.app/",
+    href: "https://www.udemy.com/certificate/UC-9c8ae4a5-1e35-4c12-8997-323b95df2f5d/",
   },
   {
     nome: "NLW Journey",
     src: Rocket,
-    href: "https://cursotw1tt3r.000webhostapp.com/",
+    href: "https://app.rocketseat.com.br/certificates/1081c53c-bff1-426b-b4ad-38896d97e55d",
   },
 ];
 
