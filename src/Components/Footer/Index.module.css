@@ -1,0 +1,63 @@
+.footer {
+  height: 75px;
+}
+
+.redes {
+  height: 50px;
+  text-align: center;
+  padding-top: 10px;
+}
+
+.icons {
+  height: 35px;
+  width: 35px;
+  border-radius: 10px;
+  color: #fff;
+}
+
+.hover1:hover {
+  color: #4c4f53;
+}
+
+.hover2 {
+  margin: 0 15px;
+}
+
+.hover2:hover {
+  color: #0a66c2;
+}
+
+.hover3:hover {
+  color: #fb006f;
+}
+
+.copy {
+  text-align: center;
+}
+
+.shadowInsetCenter {
+  -webkit-animation: shadowInsetCenter 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94)
+    both;
+  animation: shadowInsetCenter 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+}
+
+@-webkit-keyframes shadowInsetCenter {
+  0% {
+    -webkit-box-shadow: inset 0 0 0 0 transparent;
+    box-shadow: inset 0 0 0 0 transparent;
+  }
+  100% {
+    -webkit-box-shadow: inset 0 0 14px 0 rgba(0, 0, 0, 0.5);
+    box-shadow: inset 0 0 14px 0 rgba(0, 0, 0, 0.5);
+  }
+}
+@keyframes shadowInsetCenter {
+  0% {
+    -webkit-box-shadow: inset 0 0 0 0 transparent;
+    box-shadow: inset 0 0 0 0 transparent;
+  }
+  100% {
+    -webkit-box-shadow: inset 0 0 14px 0 rgba(0, 0, 0, 0.5);
+    box-shadow: inset 0 0 14px 0 rgba(0, 0, 0, 0.5);
+  }
+}

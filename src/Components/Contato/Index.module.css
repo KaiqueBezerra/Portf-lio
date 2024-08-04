@@ -1,0 +1,90 @@
+.blackBorder {
+  border: 1px solid black;
+}
+
+.shadowInsetCenter {
+  -webkit-animation: shadowInsetCenter 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94)
+    both;
+  animation: shadowInsetCenter 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+}
+
+.whatsapp:hover {
+  color: rgb(144, 238, 144);
+}
+
+.mail:hover {
+  color: rgb(255, 0, 0);
+}
+
+.block {
+  height: 200px;
+  text-align: center;
+}
+
+.title {
+  margin-right: 10px;
+  cursor: default;
+  display: inline;
+}
+
+.margin {
+  margin-top: 70px;
+}
+
+.color {
+  margin-bottom: 10px;
+  color: rgb(144, 238, 144);
+}
+
+.color1 {
+  margin-bottom: 10px;
+  color: rgb(255, 0, 0);
+}
+
+@-webkit-keyframes shadowInsetCenter {
+  0% {
+    -webkit-box-shadow: inset 0 0 0 0 transparent;
+    box-shadow: inset 0 0 0 0 transparent;
+  }
+  100% {
+    -webkit-box-shadow: inset 0 0 14px 0 rgba(0, 0, 0, 0.5);
+    box-shadow: inset 0 0 14px 0 rgba(0, 0, 0, 0.5);
+  }
+}
+@keyframes shadowInsetCenter {
+  0% {
+    -webkit-box-shadow: inset 0 0 0 0 transparent;
+    box-shadow: inset 0 0 0 0 transparent;
+  }
+  100% {
+    -webkit-box-shadow: inset 0 0 14px 0 rgba(0, 0, 0, 0.5);
+    box-shadow: inset 0 0 14px 0 rgba(0, 0, 0, 0.5);
+  }
+}
+
+.shadowInsetCenter {
+  -webkit-animation: shadowInsetCenter 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94)
+    both;
+  animation: shadowInsetCenter 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+}
+
+@-webkit-keyframes shadowInsetCenter {
+  0% {
+    -webkit-box-shadow: inset 0 0 0 0 transparent;
+    box-shadow: inset 0 0 0 0 transparent;
+  }
+  100% {
+    -webkit-box-shadow: inset 0 0 14px 0 rgba(0, 0, 0, 0.5);
+    box-shadow: inset 0 0 14px 0 rgba(0, 0, 0, 0.5);
+  }
+}
+@keyframes shadowInsetCenter {
+  0% {
+    -webkit-box-shadow: inset 0 0 0 0 transparent;
+    box-shadow: inset 0 0 0 0 transparent;
+  }
+  100% {
+    -webkit-box-shadow: inset 0 0 14px 0 rgba(0, 0, 0, 0.5);
+    box-shadow: inset 0 0 14px 0 rgba(0, 0, 0, 0.5);
+  }
+}
