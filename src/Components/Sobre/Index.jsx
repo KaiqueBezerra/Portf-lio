@@ -7,10 +7,7 @@ const Sobre = () => {
       <section className={`${styles.shadowInsetCenter} container bg-dark p-2`}>
         <div className={`${styles.blackBorder} text-light p-4`}>
           <div className="row justify-content-center">
-            <h3
-              className={`${styles.trackingInExpand}`}
-              style={{ textAlign: "center" }}
-            >
+            <h3 className={`${styles.trackingInExpand} ${styles.center}`}>
               Sobre mim
             </h3>
 
@@ -29,7 +26,7 @@ const Sobre = () => {
           </div>
 
           <div className={`${styles.curso} row justify-content-center`}>
-            <h3>Cursos</h3>
+            <h3>Cursos e Certificados</h3>
 
             <Curso />
           </div>

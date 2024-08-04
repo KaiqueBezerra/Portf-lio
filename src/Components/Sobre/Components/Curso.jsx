@@ -35,7 +35,7 @@ const Curso = () => {
             <p className={styles.descricao}>{nome}</p>
           </div>
 
-          <a href={href}>
+          <a href={href} target="_blank">
             <img
               className={`${effect ? "" : styles.textFocusIn} ${
                 styles.img

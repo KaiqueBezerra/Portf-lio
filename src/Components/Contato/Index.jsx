@@ -10,21 +10,23 @@ const Contato = () => {
             <div
               className={`${styles.shadowInsetCenter} ${styles.block} col-12 col-md-5 m-2`}
             >
-              <div className={styles.margin}>
-                <h3 className={`${styles.whatsapp} ${styles.title}`}>
-                  whatsapp
-                </h3>
+              <div className={`${styles.margin} ${styles.trackingInExpand}`}>
+                <a href="https://wa.me/5511982194384" target="_blank">
+                  <h3 className={`${styles.whatsapp} ${styles.title}`}>
+                    whatsapp
+                  </h3>
+                </a>
                 <MessageCircle className={styles.color} />
-                <h5 className={styles.numero} style={{ marginRight: "15px" }}>
-                  11-982194384
-                </h5>
+                <h5 className={styles.numero}>11-982194384</h5>
               </div>
             </div>
             <div
               className={`${styles.shadowInsetCenter} ${styles.block} col-12 col-md-5 m-2`}
             >
-              <div className={styles.margin}>
-                <h3 className={`${styles.mail} ${styles.title}`}>Email</h3>
+              <div className={`${styles.margin} ${styles.trackingInExpand}`}>
+                <a href="mailto:kaiquebezerra230@gmail.com" target="_blank">
+                  <h3 className={`${styles.mail} ${styles.title}`}>Email</h3>
+                </a>
                 <Mail className={styles.color1} />
                 <h5 className={styles.email}>kaiquebezerra230@gmail.com</h5>
               </div>
@@ -32,8 +34,10 @@ const Contato = () => {
             <div
               className={`${styles.shadowInsetCenter} ${styles.block} col-12 col-md-5 m-2`}
             >
-              <div className={styles.margin}>
-                <h3 className={`${styles.mail} ${styles.title}`}>Email</h3>
+              <div className={`${styles.margin} ${styles.trackingInExpand}`}>
+                <a href="mailto:kaiquebezerra30@gmail.com" target="_blank">
+                  <h3 className={`${styles.mail} ${styles.title}`}>Email</h3>
+                </a>
                 <Mail className={styles.color1} />
                 <h5 className={styles.email}>kaiquebezerra30@gmail.com</h5>
               </div>
