@@ -1,5 +1,5 @@
 import React from "react";
-import foto from "../../Assets/foto.jpeg";
+import foto from "../../Assets/Perfil/foto.jpeg";
 import styles from "./Index.module.css";
 import { PanelTopOpen } from "lucide-react";
 import { Link } from "react-router-dom";

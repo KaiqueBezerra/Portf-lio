@@ -65,9 +65,7 @@
   .blocks:hover {
     margin-top: -123px;
   }
-  .img {
-    height: 340px;
-  }
+  
 }
 
 @media (min-width: 601px) and (max-width: 992px) {
@@ -81,15 +79,11 @@
   .blocks:hover {
     margin-top: -126px;
   }
-  .img {
-    height: 100%;
-  }
+  
 }
 
 @media (max-width: 500px) {
-  .img {
-    height: 100%;
-  }
+  
 }
 
 .textFocusIn {

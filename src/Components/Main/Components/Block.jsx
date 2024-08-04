@@ -1,6 +1,6 @@
 import React from "react";
-import TClone from "../../../Assets/TClone.png?react";
-import Dogs from "../../../Assets/Dogs.png?react";
+import TClone from "../../../Assets/Sites/TClone-ajuste.png?react";
+import Dogs from "../../../Assets/Sites/Dogs-ajuste.png?react";
 import styles from "./Block.module.css";
 import { Link, Github } from "lucide-react";
 

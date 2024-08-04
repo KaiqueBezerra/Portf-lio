@@ -1,6 +1,6 @@
 import React from "react";
-import Udemy from "../../../Assets/Udemy.jpg?react";
-import Rocket from "../../../Assets/Rocket.png?react";
+import Udemy from "../../../Assets/Cursos_Certificados/Udemy.jpg?react";
+import Rocket from "../../../Assets/Cursos_Certificados/Rocket.png?react";
 import styles from "./Curso.module.css";
 
 const cursos = [
